@@ -300,7 +300,7 @@ export async function makeBundle(
     exports: 'auto',
   });
 
-  let outputFilesPackageJson: Partial<ModularPackageJson> = {
+  const outputFilesPackageJson: Partial<ModularPackageJson> = {
       // TODO: what of 'bin' fields?
     main: preserveModules
       ? path.join(
