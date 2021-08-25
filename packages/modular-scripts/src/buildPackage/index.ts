@@ -12,7 +12,6 @@ import npmPacklist from 'npm-packlist';
 import micromatch from 'micromatch';
 
 import { getLogger } from './getLogger';
-import { getPackageEntryPoints } from './getPackageEntryPoints';
 import getModularRoot from '../utils/getModularRoot';
 import { makeBundle } from './makeBundle';
 import { makeTypings } from './makeTypings';
